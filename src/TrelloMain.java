@@ -1,9 +1,11 @@
+import vue.*;
+import modeles.*;
 
 public class TrelloMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		@SuppressWarnings("unused")
+		VueApplication test = new VueApplication(new ModeleApplication());
 	}
-
 }
